@@ -1,0 +1,12 @@
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\src\scheduler.c
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtthread.h
+.\output\scheduler.o: .\RTE\RTOS\rtconfig.h
+.\output\scheduler.o: .\RTE\_STM32F427_437XX\RTE_Components.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtdebug.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtdef.h
+.\output\scheduler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtservice.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtm.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtthread.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\components\finsh\finsh_api.h
+.\output\scheduler.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rthw.h

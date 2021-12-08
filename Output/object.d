@@ -1,0 +1,12 @@
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\src\object.c
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtthread.h
+.\output\object.o: .\RTE\RTOS\rtconfig.h
+.\output\object.o: .\RTE\_STM32F427_437XX\RTE_Components.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtdebug.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtdef.h
+.\output\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtservice.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtm.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rtthread.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\components\finsh\finsh_api.h
+.\output\object.o: C:\Keil_v5\ARM\PACK\RealThread\RT-Thread\3.1.3\include\rthw.h
