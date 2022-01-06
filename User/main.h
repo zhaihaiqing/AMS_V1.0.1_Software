@@ -42,6 +42,7 @@
 #include "bsp_i2c_port.h"
 #include "bsp_spi.h"
 #include "bsp_dac.h"
+//#include "app_can.h"
 //#include "tmp102.h"
 #include "ADT7301.h"
 #include "AD9834.h"

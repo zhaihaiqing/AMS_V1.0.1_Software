@@ -37,11 +37,15 @@ int main(void)
 	get_temp();
 	get_temp();
 	
+	
+	//测试DAC波形输出
 	{
+		
 		WAVE_InitTypeDef WAVE_Init;
 		
-		DAC_DeInit(); 
+		DAC_DeInit(); 			//初始化DAC
 		
+		//设置波形参数
 		WAVE_Init.wave_type=SINWAVE;
 		WAVE_Init.freq = 1;
 		WAVE_Init.am = 1;
@@ -49,17 +53,20 @@ int main(void)
 		WAVE_Init.duty_cycle =50;
 		WAVE_Init.polarity=0;
 		
-		//WaveGeneration(&WAVE_Init);
-		//Dac1_Set_fixed_Vol(vol);
+		//WaveGeneration(&WAVE_Init);	//输出波形
+		//Dac1_Set_fixed_Vol(vol);		//设置恒定电平
 	}
 	
 	
-	DDS_test();
+	
+	
+	{
+			//DDS_test();
+	}
 	
 	
 	
-
-
+	
 	while (1)
 	{
 		//vol+=100;
@@ -69,7 +76,7 @@ int main(void)
 //		Delay_ms(200);
 		
 		get_temp();
-		Delay_ms(10);
+		Delay_ms(1000);
 		
 	
 

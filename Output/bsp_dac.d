@@ -1,11 +1,11 @@
 .\output\bsp_dac.o: BSP\bsp_dac.c
 .\output\bsp_dac.o: .\User\main.h
-.\output\bsp_dac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\bsp_dac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\output\bsp_dac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\bsp_dac.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\bsp_dac.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\bsp_dac.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\output\bsp_dac.o: .\User\stm32f4xx.h
 .\output\bsp_dac.o: .\CMSIS\core_cm4.h
-.\output\bsp_dac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\bsp_dac.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\bsp_dac.o: .\CMSIS\core_cmInstr.h
 .\output\bsp_dac.o: .\CMSIS\core_cmFunc.h
 .\output\bsp_dac.o: .\CMSIS\core_cmSimd.h
