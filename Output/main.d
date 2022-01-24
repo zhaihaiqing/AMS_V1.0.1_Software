@@ -1,11 +1,11 @@
 .\output\main.o: User\main.c
 .\output\main.o: User\main.h
-.\output\main.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\main.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\output\main.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\output\main.o: User\stm32f4xx.h
 .\output\main.o: .\CMSIS\core_cm4.h
-.\output\main.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\main.o: .\CMSIS\core_cmInstr.h
 .\output\main.o: .\CMSIS\core_cmFunc.h
 .\output\main.o: .\CMSIS\core_cmSimd.h

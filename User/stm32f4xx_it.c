@@ -215,6 +215,57 @@ void TIM7_IRQHandler(void)
 }
 
 
+extern  __IO uint8_t aRxBuffer[];
+extern __IO uint8_t ubRxIndex;
+extern __IO uint8_t ubTxIndex;
+extern uint8_t aTxBuffer[];
+extern __IO uint32_t TimeOut;
+
+extern __IO uint8_t spi4_rx_flag;
+
+__IO uint8_t ubCounter = 0;
+
+__IO uint8_t rxdata=0;
+
+void SPI4_IRQHandler(void)
+{
+  /* SPI in Receiver mode */
+  if (SPI_I2S_GetITStatus(SPI4, SPI_I2S_IT_RXNE) == RESET)
+  {
+    if (ubRxIndex < BUFFERSIZE)
+    {
+      /* Receive Transaction data */
+			rxdata=SPI_I2S_ReceiveData(SPI4);
+      aRxBuffer[ubRxIndex++] = rxdata;
+			
+			spi4_rx_flag=1;
+			//log_info("rxdata:%d\r\n",rxdata);
+    }
+    else
+    {
+      /* Disable the Rx buffer not empty interrupt */
+      SPI_I2S_ITConfig(SPI4, SPI_I2S_IT_RXNE, DISABLE);
+    }
+  }
+  /* SPI in Transmitter mode */
+  if (SPI_I2S_GetITStatus(SPI4, SPI_I2S_IT_TXE) == SET)
+  {
+    if (ubTxIndex < BUFFERSIZE)
+    {
+      /* Send Transaction data */
+      //SPI_I2S_SendData(SPI4, aTxBuffer[ubTxIndex++]);
+			SPI_I2S_SendData(SPI4, rxdata);
+    }
+    else
+    {
+      /* Disable the Tx buffer empty interrupt */
+      //SPI_I2S_ITConfig(SPI4, SPI_I2S_IT_TXE, DISABLE);
+    }
+  }
+}
+
+
+
 /******************************************************************************/
 /*                 STM32F4xx Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */

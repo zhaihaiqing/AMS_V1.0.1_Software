@@ -20,6 +20,7 @@
 
 
 void SPI2_Configuration(void);
+void SPI4_Configuration(void);
 unsigned char SPI2_ReadWriteByte(unsigned char byte);
 unsigned char SPI2_CS_Select(unsigned char cs);
 

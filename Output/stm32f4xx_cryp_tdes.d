@@ -2,7 +2,7 @@
 .\output\stm32f4xx_cryp_tdes.o: .\FWlib\inc\stm32f4xx_cryp.h
 .\output\stm32f4xx_cryp_tdes.o: .\User\stm32f4xx.h
 .\output\stm32f4xx_cryp_tdes.o: .\CMSIS\core_cm4.h
-.\output\stm32f4xx_cryp_tdes.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stm32f4xx_cryp_tdes.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\stm32f4xx_cryp_tdes.o: .\CMSIS\core_cmInstr.h
 .\output\stm32f4xx_cryp_tdes.o: .\CMSIS\core_cmFunc.h
 .\output\stm32f4xx_cryp_tdes.o: .\CMSIS\core_cmSimd.h

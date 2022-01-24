@@ -56,6 +56,7 @@
 //		#define log_info(...)
 //#endif
 
+#define BUFFERSIZE 256
 
 #define WDI_H     GPIO_SetBits(GPIOA,GPIO_Pin_15)
 #define WDI_L	  GPIO_ResetBits(GPIOA,GPIO_Pin_15)

@@ -13,6 +13,17 @@
 volatile unsigned int SysTick_Count = 0;
 volatile unsigned int TimingDelay = 0;
 
+
+uint8_t aTxBuffer[BUFFERSIZE] = "SPI Master/Slave : Communication between two SPI using Interrupts";
+
+__IO uint8_t aRxBuffer [BUFFERSIZE];
+__IO uint8_t ubRxIndex = 0;
+__IO uint8_t ubTxIndex = 0;
+__IO uint32_t TimeOut = 0;
+
+__IO uint8_t spi4_rx_flag = 0;
+
+
 int main(void)
 {	
 	int vol=0; 	
@@ -38,7 +49,7 @@ int main(void)
 	get_temp();
 	
 	
-	//≤‚ ‘DAC≤®–Œ ‰≥ˆ
+	/*******************	1£∫DAC≤®–Œ∑¢…˙∆˜ *******************/
 	{
 		
 		WAVE_InitTypeDef WAVE_Init;
@@ -59,28 +70,52 @@ int main(void)
 	
 	
 	
-	
+	/******************* 2£∫DDS≤‚ ‘ *******************/
 	{
 			//DDS_test();
 	}
 	
 	
-	
-	
-	while (1)
+	/*******************	3£∫TEMP≤‚ ‘ *******************/
 	{
-		//vol+=100;
-//		DDS_LED_ON();
-//		Delay_ms(200);
-//		DDS_LED_OFF();
-//		Delay_ms(200);
-		
-		get_temp();
-		Delay_ms(1000);
-		
-	
-
+		while (0)
+		{	
+			get_temp();
+			Delay_ms(100);
+		}
 	}
+	
+	
+	
+	/******************* 4£∫SPI4 Slave≤‚ ‘ *******************/
+	{
+		uint16_t ix=0;
+		
+		SPI4_Configuration();
+		SPI_I2S_ReceiveData(SPI4);
+		
+		while (1)
+		{				
+			Delay_ms(5);
+			if(spi4_rx_flag)
+			{
+				spi4_rx_flag=0;
+				ubRxIndex=0;
+				
+				log_info("aRxBuffer=");
+				for(ix=1;ix<BUFFERSIZE-1;ix++)
+				{
+					log_info("%d ",aRxBuffer[ix]);
+				}
+				log_info("\r\n");
+				
+				memset((void *)aRxBuffer,0,BUFFERSIZE);
+			}
+		}
+	}
+	
+	
+	
 }
 
 #ifdef  USE_FULL_ASSERT
