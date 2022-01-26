@@ -7,6 +7,8 @@ void Delay_us(unsigned short us_cnt);
 void Delay_ms(volatile unsigned int nTime);
 void get_RCCCLOCK(void);
 
+void rt_hw_us_delay(uint32_t us);
+
 //void rt_hw_us_delay(rt_uint32_t us);
 
 #endif

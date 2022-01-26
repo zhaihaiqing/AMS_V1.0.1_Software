@@ -406,6 +406,11 @@
               <FileType>1</FileType>
               <FilePath>.\User\AD9834\AD9834.c</FilePath>
             </File>
+            <File>
+              <FileName>tmp102.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\TMP102\tmp102.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -435,6 +440,11 @@
               <FileName>bsp_dac.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\BSP\bsp_dac.c</FilePath>
+            </File>
+            <File>
+              <FileName>bsp_i2c_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\BSP\bsp_i2c_port.c</FilePath>
             </File>
           </Files>
         </Group>

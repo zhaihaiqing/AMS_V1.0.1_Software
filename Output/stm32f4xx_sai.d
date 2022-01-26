@@ -2,7 +2,7 @@
 .\output\stm32f4xx_sai.o: .\FWlib\inc\stm32f4xx_sai.h
 .\output\stm32f4xx_sai.o: .\User\stm32f4xx.h
 .\output\stm32f4xx_sai.o: .\CMSIS\core_cm4.h
-.\output\stm32f4xx_sai.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stm32f4xx_sai.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\stm32f4xx_sai.o: .\CMSIS\core_cmInstr.h
 .\output\stm32f4xx_sai.o: .\CMSIS\core_cmFunc.h
 .\output\stm32f4xx_sai.o: .\CMSIS\core_cmSimd.h

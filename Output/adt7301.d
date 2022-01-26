@@ -1,11 +1,11 @@
 .\output\adt7301.o: User\ADT7301\ADT7301.c
 .\output\adt7301.o: .\User\main.h
-.\output\adt7301.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\adt7301.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\output\adt7301.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\adt7301.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\adt7301.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\adt7301.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\output\adt7301.o: .\User\stm32f4xx.h
 .\output\adt7301.o: .\CMSIS\core_cm4.h
-.\output\adt7301.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\adt7301.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\adt7301.o: .\CMSIS\core_cmInstr.h
 .\output\adt7301.o: .\CMSIS\core_cmFunc.h
 .\output\adt7301.o: .\CMSIS\core_cmSimd.h
@@ -47,5 +47,6 @@
 .\output\adt7301.o: .\BSP\bsp_i2c_port.h
 .\output\adt7301.o: .\BSP\bsp_spi.h
 .\output\adt7301.o: .\BSP\bsp_dac.h
+.\output\adt7301.o: .\User\TMP102\tmp102.h
 .\output\adt7301.o: .\User\ADT7301\ADT7301.h
 .\output\adt7301.o: .\User\AD9834\AD9834.h

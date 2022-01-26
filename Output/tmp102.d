@@ -1,11 +1,11 @@
 .\output\tmp102.o: User\TMP102\tmp102.c
 .\output\tmp102.o: .\User\main.h
-.\output\tmp102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\output\tmp102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\output\tmp102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\output\tmp102.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\tmp102.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\tmp102.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\output\tmp102.o: .\User\stm32f4xx.h
 .\output\tmp102.o: .\CMSIS\core_cm4.h
-.\output\tmp102.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\tmp102.o: D:\PF\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\output\tmp102.o: .\CMSIS\core_cmInstr.h
 .\output\tmp102.o: .\CMSIS\core_cmFunc.h
 .\output\tmp102.o: .\CMSIS\core_cmSimd.h
@@ -46,6 +46,7 @@
 .\output\tmp102.o: .\BSP\bsp_timer.h
 .\output\tmp102.o: .\BSP\bsp_i2c_port.h
 .\output\tmp102.o: .\BSP\bsp_spi.h
+.\output\tmp102.o: .\BSP\bsp_dac.h
 .\output\tmp102.o: .\User\TMP102\tmp102.h
 .\output\tmp102.o: .\User\ADT7301\ADT7301.h
-.\output\tmp102.o: .\User\thread_m.h
+.\output\tmp102.o: .\User\AD9834\AD9834.h
